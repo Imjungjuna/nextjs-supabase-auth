@@ -45,7 +45,7 @@ export default function AuthButton() {
 
   return (
     <div>
-      <p className="text-xl mb-4">안녕하세요, {session.user.email}님!</p>
+      <p className="text-xl mb-4">안녕하세요, {session.user.email}님, 동아리 가입을 환영합니다!</p>
       <button
         onClick={handleLogout}
         className="py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-gray-600 hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
